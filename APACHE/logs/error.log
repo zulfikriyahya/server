@@ -1,0 +1,40 @@
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+pm_winnt:notice] [pid 6688:tid 384] AH00455: Apache/2.4.62 (Win64) PHP/8.3.9 configured -- resuming normal operations
+[Tue Jul 30 13:46:40.694374 2024] [mpm_winnt:notice] [pid 6688:tid 384] AH00456: Apache Lounge VS17 Server built: Jul 16 2024 12:23:10
+[Tue Jul 30 13:46:40.694374 2024] [core:notice] [pid 6688:tid 384] AH00094: Command line: 'C:\\SERVER\\APACHE\\bin\\httpd.exe -d C:/SERVER/APACHE'
+[Tue Jul 30 13:46:40.694374 2024] [mpm_winnt:notice] [pid 6688:tid 384] AH00418: Parent: Created child process 9108
+[Tue Jul 30 13:46:41.006938 2024] [mpm_winnt:notice] [pid 9108:tid 364] AH00354: Child: Starting 64 worker threads.
+The 'Apache2.4' service is restarting.
+The 'Apache2.4' service has restarted.
+winnt:notice] [pid 6688:tid 384] AH00424: Parent: Received restart signal -- Restarting the server.
+[Tue Jul 30 13:48:55.113794 2024] [mpm_winnt:notice] [pid 6688:tid 384] AH00455: Apache/2.4.62 (Win64) PHP/8.3.9 configured -- resuming normal operations
+[Tue Jul 30 13:48:55.113794 2024] [mpm_winnt:notice] [pid 6688:tid 384] AH00456: Apache Lounge VS17 Server built: Jul 16 2024 12:23:10
+[Tue Jul 30 13:48:55.113794 2024] [core:notice] [pid 6688:tid 384] AH00094: Command line: 'C:\\SERVER\\APACHE\\bin\\httpd.exe -d C:/SERVER/APACHE'
+[Tue Jul 30 13:48:55.113794 2024] [mpm_winnt:notice] [pid 6688:tid 384] AH00418: Parent: Created child process 8704
+[Tue Jul 30 13:48:56.083057 2024] [mpm_winnt:notice] [pid 8704:tid 408] AH00354: Child: Starting 64 worker threads.
+[Tue Jul 30 13:48:57.084237 2024] [mpm_winnt:notice] [pid 9108:tid 364] AH00364: Child: All worker threads have exited.
+The 'Apache2.4' service is restarting.
+The 'Apache2.4' service has restarted.
+winnt:notice] [pid 6688:tid 384] AH00424: Parent: Received restart signal -- Restarting the server.
+[Tue Jul 30 13:51:11.232850 2024] [mpm_winnt:notice] [pid 6688:tid 384] AH00455: Apache/2.4.62 (Win64) PHP/8.3.9 configured -- resuming normal operations
+[Tue Jul 30 13:51:11.232850 2024] [mpm_winnt:notice] [pid 6688:tid 384] AH00456: Apache Lounge VS17 Server built: Jul 16 2024 12:23:10
+[Tue Jul 30 13:51:11.232850 2024] [core:notice] [pid 6688:tid 384] AH00094: Command line: 'C:\\SERVER\\APACHE\\bin\\httpd.exe -d C:/SERVER/APACHE'
+[Tue Jul 30 13:51:11.232850 2024] [mpm_winnt:notice] [pid 6688:tid 384] AH00418: Parent: Created child process 4168
+[Tue Jul 30 13:51:12.150961 2024] [mpm_winnt:notice] [pid 4168:tid 388] AH00354: Child: Starting 64 worker threads.
+[Tue Jul 30 13:51:13.154395 2024] [mpm_winnt:notice] [pid 8704:tid 408] AH00364: Child: All worker threads have exited.
+[Tue Jul 30 13:53:17.379099 2024] [php:error] [pid 4168:tid 1156] [client ::1:57820] PHP Fatal error:  Uncaught SodiumException: sodium_hex2bin(): Argument #1 ($string) must be a valid hexadecimal string in C:\\DEV\\admin\\config.inc.php:161\nStack trace:\n#0 C:\\DEV\\admin\\config.inc.php(161): sodium_hex2bin()\n#1 C:\\DEV\\admin\\show_config_errors.php(43): include()\n#2 {main}\n  thrown in C:\\DEV\\admin\\config.inc.php on line 161
+[Tue Jul 30 13:53:47.193072 2024] [php:error] [pid 4168:tid 1148] [client ::1:57827] PHP Fatal error:  Uncaught SodiumException: sodium_hex2bin(): Argument #1 ($string) must be a valid hexadecimal string in C:\\DEV\\admin\\config.inc.php:161\nStack trace:\n#0 C:\\DEV\\admin\\config.inc.php(161): sodium_hex2bin()\n#1 C:\\DEV\\admin\\show_config_errors.php(43): include()\n#2 {main}\n  thrown in C:\\DEV\\admin\\config.inc.php on line 161
+The 'Apache2.4' service is restarting.
+The 'Apache2.4' service has restarted.
+winnt:notice] [pid 6688:tid 384] AH00424: Parent: Received restart signal -- Restarting the server.
+[Tue Jul 30 13:53:51.806992 2024] [mpm_winnt:notice] [pid 6688:tid 384] AH00455: Apache/2.4.62 (Win64) PHP/8.3.9 configured -- resuming normal operations
+[Tue Jul 30 13:53:51.806992 2024] [mpm_winnt:notice] [pid 6688:tid 384] AH00456: Apache Lounge VS17 Server built: Jul 16 2024 12:23:10
+[Tue Jul 30 13:53:51.806992 2024] [core:notice] [pid 6688:tid 384] AH00094: Command line: 'C:\\SERVER\\APACHE\\bin\\httpd.exe -d C:/SERVER/APACHE'
+[Tue Jul 30 13:53:51.806992 2024] [mpm_winnt:notice] [pid 6688:tid 384] AH00418: Parent: Created child process 13116
+[Tue Jul 30 13:53:52.685806 2024] [mpm_winnt:notice] [pid 13116:tid 408] AH00354: Child: Starting 64 worker threads.
+[Tue Jul 30 13:53:53.665776 2024] [php:error] [pid 13116:tid 1056] [client ::1:57832] PHP Fatal error:  Uncaught SodiumException: sodium_hex2bin(): Argument #1 ($string) must be a valid hexadecimal string in C:\\DEV\\admin\\config.inc.php:161\nStack trace:\n#0 C:\\DEV\\admin\\config.inc.php(161): sodium_hex2bin()\n#1 C:\\DEV\\admin\\show_config_errors.php(43): include()\n#2 {main}\n  thrown in C:\\DEV\\admin\\config.inc.php on line 161
+[Tue Jul 30 13:53:53.693060 2024] [mpm_winnt:notice] [pid 4168:tid 388] AH00364: Child: All worker threads have exited.
+[Tue Jul 30 13:53:55.067352 2024] [php:error] [pid 13116:tid 1248] [client ::1:57834] PHP Fatal error:  Uncaught SodiumException: sodium_hex2bin(): Argument #1 ($string) must be a valid hexadecimal string in C:\\DEV\\admin\\config.inc.php:161\nStack trace:\n#0 C:\\DEV\\admin\\config.inc.php(161): sodium_hex2bin()\n#1 C:\\DEV\\admin\\show_config_errors.php(43): include()\n#2 {main}\n  thrown in C:\\DEV\\admin\\config.inc.php on line 161
+[Tue Jul 30 13:53:55.706396 2024] [php:error] [pid 13116:tid 1248] [client ::1:57834] PHP Fatal error:  Uncaught SodiumException: sodium_hex2bin(): Argument #1 ($string) must be a valid hexadecimal string in C:\\DEV\\admin\\config.inc.php:161\nStack trace:\n#0 C:\\DEV\\admin\\config.inc.php(161): sodium_hex2bin()\n#1 C:\\DEV\\admin\\show_config_errors.php(43): include()\n#2 {main}\n  thrown in C:\\DEV\\admin\\config.inc.php on line 161
+[Tue Jul 30 13:53:56.263904 2024] [php:error] [pid 13116:tid 1240] [client ::1:57836] PHP Fatal error:  Uncaught SodiumException: sodium_hex2bin(): Argument #1 ($string) must be a valid hexadecimal string in C:\\DEV\\admin\\config.inc.php:161\nStack trace:\n#0 C:\\DEV\\admin\\config.inc.php(161): sodium_hex2bin()\n#1 C:\\DEV\\admin\\show_config_errors.php(43): include()\n#2 {main}\n  thrown in C:\\DEV\\admin\\config.inc.php on line 161
