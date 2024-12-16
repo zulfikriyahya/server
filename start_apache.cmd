@@ -1,3 +1,4 @@
+@echo off
 cd /server/apache24/bin
 httpd -k stop
 httpd -k uninstall
